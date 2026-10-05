@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>לא נמצא</title>
+<script>
+  // an old link under /paintItBlack/ goes to the same place under /inkognito/, where the tool moved
+  var m = location.pathname.match(/^\/paintitblack(\/.*)?$/i);
+  if (m) location.replace("https://ombed.github.io/inkognito" + (m[1] || "/") + location.search + location.hash);
+</script>
+</head>
+<body style="font-family:system-ui,sans-serif;margin:40px 20px;line-height:1.6">
+<p>העמוד לא נמצא. הכלי נמצא ב־<a href="https://ombed.github.io/inkognito/">ombed.github.io/inkognito</a></p>
+</body>
+</html>
